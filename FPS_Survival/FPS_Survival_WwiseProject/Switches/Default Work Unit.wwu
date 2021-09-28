@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E8DC01AD-65F7-4547-99DF-BE766C2C8511}" SchemaVersion="97">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{E8DC01AD-65F7-4547-99DF-BE766C2C8511}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E8DC01AD-65F7-4547-99DF-BE766C2C8511}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Aliens" ID="{4A9EDF78-C130-417E-B5DB-C78C2C503248}">
+					<ChildrenList>
+						<Switch Name="Beefy_Bois" ID="{C8ABEE47-66BF-4B4D-8D45-168F53FEDFFD}"/>
+						<Switch Name="Fast_Bois" ID="{7F3F2130-5894-42BA-84AC-429F0DED7D54}"/>
+						<Switch Name="Normies" ID="{F0C2BEC7-A45E-464E-8572-B6642086C680}"/>
+						<Switch Name="Ranged" ID="{6A64AC35-9504-4FEF-9C06-C479949FD2A2}"/>
+						<Switch Name="Spider" ID="{CD2A7F4C-E75B-4014-917C-DAA3E8BE0A57}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Ambiances" ID="{6F050379-CE6B-468A-AD59-D606C5E7EB30}">
+					<ChildrenList>
+						<Switch Name="Air" ID="{A60F183A-8CA8-47E6-82E2-76701E7CF336}"/>
+						<Switch Name="Bumps" ID="{B596533E-18E8-46EC-8DBE-23FB44E6652D}"/>
+						<Switch Name="Computers" ID="{35BC6952-BD6B-4DB0-898D-EE9F0AAA5491}"/>
+						<Switch Name="Cryo_Chamber" ID="{C56556AC-7B3B-4BB7-8068-36B3EEC45CA3}"/>
+						<Switch Name="Shrieks" ID="{2793EEB6-5BCA-4729-8EA8-DFE93AA0E0B0}"/>
+						<Switch Name="TV" ID="{EFD5DE62-1E05-4C63-9997-FD0F2CFE8DB9}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Interactable_Objects" ID="{8BB6E829-D002-43B0-9F99-AFE272150978}">
+					<ChildrenList>
+						<Switch Name="Display_Case_Purchase" ID="{3FD49538-4476-4906-8519-41D9C0AD5F50}"/>
+						<Switch Name="Doors" ID="{516BAFE0-1867-413E-AFCB-5D67982E2DE9}"/>
+						<Switch Name="Printer" ID="{5DD49CF8-2442-4EB3-B165-7959B3F606B1}"/>
+						<Switch Name="Teleporter" ID="{4BE33A96-2F24-4A41-9B76-4F29E42E120A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

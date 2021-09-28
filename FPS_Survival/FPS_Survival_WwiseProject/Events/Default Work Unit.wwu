@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8C119089-CF58-4DB5-99D6-E8303F4D053D}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{8C119089-CF58-4DB5-99D6-E8303F4D053D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8C119089-CF58-4DB5-99D6-E8303F4D053D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Button_Press" ID="{512A3C29-8D1E-41D1-AE93-587EBB75818A}">
+					<ChildrenList>
+						<Action Name="" ID="{A047101B-DC39-4ABB-8232-B2F3410104EF}" ShortID="71611004">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button Press" ID="{3F57B63A-EB08-4F5B-8229-CD0F4B4087E9}" WorkUnitID="{7CB5FCC8-4F92-4EBE-8A96-77CC2E847A23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Opening" ID="{A0D6D18E-0F37-4E21-8A47-D8E69DC24B6F}"/>
+				<Event Name="Footsteps" ID="{CACE959A-317C-4895-90A5-679F13E9C329}">
+					<ChildrenList>
+						<Action Name="" ID="{AC61F12D-8A50-43CF-B034-9ED341391483}" ShortID="473478789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{31053A6E-AB6F-46E5-BC0B-D289B05BF345}" WorkUnitID="{7CB5FCC8-4F92-4EBE-8A96-77CC2E847A23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Round_Change" ID="{B7E14AFF-FD9C-40F8-9257-24ACCAEE08FF}"/>
+				<Event Name="Shoot" ID="{18A1B0D6-91BD-46F8-8B9B-C26807FF15C0}"/>
+				<Event Name="Teleport" ID="{123C135A-72D2-4D1C-84F5-99C34DEF77D9}">
+					<ChildrenList>
+						<Action Name="" ID="{0CBA4A77-E20A-414A-86FB-962C84DD2203}" ShortID="620741059">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Interactable Objects" ID="{886061FE-9DD2-4456-A688-BFB3A700167F}" WorkUnitID="{7CB5FCC8-4F92-4EBE-8A96-77CC2E847A23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TV_Static" ID="{5238B348-243A-4749-8B15-29AF30A0CEA9}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

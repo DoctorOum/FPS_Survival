@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	530129416	Teleport			\Default Work Unit\Teleport	
+	1436086644	TV_Static			\Default Work Unit\TV_Static	
+	1930935334	Round_Change			\Default Work Unit\Round_Change	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	2589897592	Door_Opening			\Default Work Unit\Door_Opening	
+	2698747613	Button_Press			\Default Work Unit\Button_Press	
+	3038207054	Shoot			\Default Work Unit\Shoot	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1404066300	Ambiances			\Default Work Unit\Ambiances	
+	3329721726	Interactable_Objects			\Default Work Unit\Interactable_Objects	
+
+Switch	ID	Name	Switch Group			Notes
+	519478265	Cryo_Chamber	Ambiances			
+	978065798	Shrieks	Ambiances			
+	1050421051	Air	Ambiances			
+	1568083719	TV	Ambiances			
+	1803766445	Computers	Ambiances			
+	3351173968	Bumps	Ambiances			
+	289811402	Display_Case_Purchase	Interactable_Objects			
+	1425580747	Printer	Interactable_Objects			
+	2150196036	Doors	Interactable_Objects			
+	3373753397	Teleporter	Interactable_Objects			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	44175146	SFX_Teleporter_01_Norm_Fade	C:\Users\brand\Documents\GitHub\FPS_Survival\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\SFX_Teleporter_01_Norm_Fade_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\SFX_Teleporter_01_Norm_Fade		108352
+	101217586	UI_Button_01_Norm	C:\Users\brand\Documents\GitHub\FPS_Survival\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\UI_Button_01_Norm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Button Press\UI_Button_01_Norm		65088
+	633188626	UI_Button_02_Norm	C:\Users\brand\Documents\GitHub\FPS_Survival\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\UI_Button_02_Norm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Button Press\UI_Button_02_Norm		114240
+	991414336	SFX_Door_Opening_02	C:\Users\brand\Documents\GitHub\FPS_Survival\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\SFX_Door_Opening_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\SFX_Door_Opening_02		95040
+	999964931	SFX_Purchase_01	C:\Users\brand\Documents\GitHub\FPS_Survival\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\SFX_Purchase_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\SFX_Purchase_01		136768
+
