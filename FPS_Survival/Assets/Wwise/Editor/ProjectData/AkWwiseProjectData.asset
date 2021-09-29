@@ -12,14 +12,317 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec33ef20a504a74797907fc26a3669a, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 0e2404164bd8d84e85203e7462667bd9
+    GuidInternal: 
+    m_lastTime: -8585736694647086148
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 3b4945c0f7548c46b217994db96d2f78
+    GuidInternal: 
+    m_lastTime: -8585736694647106073
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: ea7d4925142a4e48ad232cef3f516688
+    GuidInternal: 
+    m_lastTime: -8585687257201350678
+    List:
+    - name: Master_Soundbank
+      guid: 94e085c47dc3d344bdcece2d75e83dbf
+      id: 2469504869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master_Soundbank
+        ObjectType: 7
+      Path: Default Work Unit\Master_Soundbank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 8990118c58cfb54d99d6e8303f4d053d
+    GuidInternal: 
+    m_lastTime: -8585687257201590494
+    List:
+    - name: Button_Press
+      guid: 293c2a511e8dd141ae93587ebb75818a
+      id: 2698747613
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Button_Press
+        ObjectType: 3
+      Path: Default Work Unit\Button_Press
+      maxAttenuation: 0
+      maxDuration: 0.594667
+      minDuration: 0.338667
+    - name: Door_Opening
+      guid: 8ed1d6a0370f214e8a47d8e69dc24b6f
+      id: 2589897592
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Door_Opening
+        ObjectType: 3
+      Path: Default Work Unit\Door_Opening
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Footsteps
+      guid: 9a95ceca7c31954890a5679f13e9c329
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\Footsteps
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Round_Change
+      guid: ff4ae1b79cfdf840925724accaee08ff
+      id: 1930935334
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Round_Change
+        ObjectType: 3
+      Path: Default Work Unit\Round_Change
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Shoot
+      guid: d6b0a118bd91f8468b9bc26807ff15c0
+      id: 3038207054
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Shoot
+        ObjectType: 3
+      Path: Default Work Unit\Shoot
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Teleport
+      guid: 5a133c12d2721c4d84f599c34def77d9
+      id: 530129416
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Teleport
+        ObjectType: 3
+      Path: Default Work Unit\Teleport
+      maxAttenuation: 0
+      maxDuration: 1.424
+      minDuration: 0.989333
+    - name: TV_Static
+      guid: 48b338523a2449478b1529af30a0cea9
+      id: 1436086644
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: TV_Static
+        ObjectType: 3
+      Path: Default Work Unit\TV_Static
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 9b7b27f7e9788644830229f17533ae6a
+    GuidInternal: 
+    m_lastTime: -8585736694647116064
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 43a2ae353b658c4ab2d6df47a3828f98
+    GuidInternal: 
+    m_lastTime: -8585736694647096118
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: ad01dce8f765474599dfbe766c2c8511
+    GuidInternal: 
+    m_lastTime: -8585687257201350678
+    List:
+    - name: Aliens
+      guid: 78df9e4a30c17e41b5dbc78c2c503248
+      id: 84587813
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Aliens
+        ObjectType: 11
+      Path: Default Work Unit\Aliens
+      values:
+      - name: Beefy_Bois
+        guid: 47eeabc8bf664d4b8d45168f53fedffd
+        id: 4254775594
+        PathAndIcons:
+        - ElementName: Beefy_Bois
+          ObjectType: 10
+      - name: Fast_Bois
+        guid: 30213f7f9458ba4284ac429f0ded7d54
+        id: 691572335
+        PathAndIcons:
+        - ElementName: Fast_Bois
+          ObjectType: 10
+      - name: Normies
+        guid: c7bec2f05ea44e468572b6642086c680
+        id: 2122777032
+        PathAndIcons:
+        - ElementName: Normies
+          ObjectType: 10
+      - name: Ranged
+        guid: 35ac646a0495ef4f9c06c479949fd2a2
+        id: 3686152272
+        PathAndIcons:
+        - ElementName: Ranged
+          ObjectType: 10
+      - name: Spider
+        guid: 4c7f2acd5be71440917cdaa3e8be0a57
+        id: 1016990062
+        PathAndIcons:
+        - ElementName: Spider
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Ambiances
+      guid: 7903056f6bce8a46ad59d606c5e7eb30
+      id: 1404066300
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 11
+      Path: Default Work Unit\Ambiances
+      values:
+      - name: Air
+        guid: 3a180fa6a88ce64782e276701e7cf336
+        id: 1050421051
+        PathAndIcons:
+        - ElementName: Air
+          ObjectType: 10
+      - name: Bumps
+        guid: 3e5396b5e818ec468dbe23fb44e6652d
+        id: 3351173968
+        PathAndIcons:
+        - ElementName: Bumps
+          ObjectType: 10
+      - name: Computers
+        guid: 5269bc356bbdb04d898dee9f0aaa5491
+        id: 1803766445
+        PathAndIcons:
+        - ElementName: Computers
+          ObjectType: 10
+      - name: Cryo_Chamber
+        guid: ac5665c53b7bb74b806836b3eec45ca3
+        id: 519478265
+        PathAndIcons:
+        - ElementName: Cryo_Chamber
+          ObjectType: 10
+      - name: Shrieks
+        guid: b6ee9327ca5b29478ea8dfe93aa0e0b0
+        id: 978065798
+        PathAndIcons:
+        - ElementName: Shrieks
+          ObjectType: 10
+      - name: TV
+        guid: 62ded5ef051e634c9997fd0f2cfe8db9
+        id: 1568083719
+        PathAndIcons:
+        - ElementName: TV
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Interactable_Objects
+      guid: 29e8b68b02d0b0439f99afe272150978
+      id: 3329721726
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Interactable_Objects
+        ObjectType: 11
+      Path: Default Work Unit\Interactable_Objects
+      values:
+      - name: Display_Case_Purchase
+        guid: 3895d43f76440649851941d9c0ad5f50
+        id: 289811402
+        PathAndIcons:
+        - ElementName: Display_Case_Purchase
+          ObjectType: 10
+      - name: Doors
+        guid: e0af6b5167183e41afcb5d67982e2de9
+        id: 2150196036
+        PathAndIcons:
+        - ElementName: Doors
+          ObjectType: 10
+      - name: Printer
+        guid: f89cd45d4224b34eb1657959b3f606b1
+        id: 1425580747
+        PathAndIcons:
+        - ElementName: Printer
+          ObjectType: 10
+      - name: Teleporter
+        guid: 963ae34b242f414a9b764f29e42e120a
+        id: 3373753397
+        PathAndIcons:
+        - ElementName: Teleporter
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 97437f82126022468e52b87ced5734ff
+    GuidInternal: 
+    m_lastTime: -8585736694647086148
+    List: []
   ExpandedItems: []
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
