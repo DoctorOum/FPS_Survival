@@ -323,6 +323,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585736694647086148
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /FPS_Survival_WwiseProject
+  - /FPS_Survival_WwiseProject/SoundBanks
+  - /FPS_Survival_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
