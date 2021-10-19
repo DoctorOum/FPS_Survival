@@ -20,13 +20,23 @@
 						<Action Name="" ID="{AC61F12D-8A50-43CF-B034-9ED341391483}" ShortID="473478789">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{31053A6E-AB6F-46E5-BC0B-D289B05BF345}" WorkUnitID="{7CB5FCC8-4F92-4EBE-8A96-77CC2E847A23}"/>
+									<ObjectRef Name="Footsteps(Ground)" ID="{31053A6E-AB6F-46E5-BC0B-D289B05BF345}" WorkUnitID="{7CB5FCC8-4F92-4EBE-8A96-77CC2E847A23}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Round_Change" ID="{B7E14AFF-FD9C-40F8-9257-24ACCAEE08FF}"/>
+				<Event Name="Round_Change" ID="{B7E14AFF-FD9C-40F8-9257-24ACCAEE08FF}">
+					<ChildrenList>
+						<Action Name="" ID="{A1EB8A36-D6FC-4166-88C1-A5063BF14E22}" ShortID="180006272">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Round_Change_Music" ID="{B248D3A1-D147-4A1E-9560-DD0F7448E15A}" WorkUnitID="{157C06BB-7130-469F-BB82-D8186C4F2C87}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Shoot" ID="{18A1B0D6-91BD-46F8-8B9B-C26807FF15C0}"/>
 				<Event Name="Teleport" ID="{123C135A-72D2-4D1C-84F5-99C34DEF77D9}">
 					<ChildrenList>

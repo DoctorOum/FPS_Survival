@@ -30,6 +30,18 @@
 						<Switch Name="Teleporter" ID="{4BE33A96-2F24-4A41-9B76-4F29E42E120A}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Songs" ID="{1C88420F-4EDD-4A71-AF37-34C076A42B42}">
+					<ChildrenList>
+						<Switch Name="Menu" ID="{6FA690F8-A083-47E7-80A7-68D0E711130C}"/>
+						<Switch Name="Round_Change" ID="{60E4F3BD-9622-46AE-9655-BC8DFB1D8BD0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Footsteps_Group" ID="{20487C9B-6322-4462-88B6-4CF3F9F8CDD9}">
+					<ChildrenList>
+						<Switch Name="Ground" ID="{A5A2D331-0F21-42C2-9063-0FB146374016}"/>
+						<Switch Name="Stairs" ID="{2BD4A605-3753-4445-86FD-C1E2A3EB9914}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

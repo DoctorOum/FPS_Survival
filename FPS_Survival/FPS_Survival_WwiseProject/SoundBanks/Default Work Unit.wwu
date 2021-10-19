@@ -9,7 +9,7 @@
 						<ObjectRef Name="Button_Press" ID="{512A3C29-8D1E-41D1-AE93-587EBB75818A}" WorkUnitID="{8C119089-CF58-4DB5-99D6-E8303F4D053D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Door_Opening_02" ID="{D236899F-F863-426F-8A11-194E4B6B6349}" WorkUnitID="{7CB5FCC8-4F92-4EBE-8A96-77CC2E847A23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interactable Objects" ID="{886061FE-9DD2-4456-A688-BFB3A700167F}" WorkUnitID="{7CB5FCC8-4F92-4EBE-8A96-77CC2E847A23}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Footsteps" ID="{31053A6E-AB6F-46E5-BC0B-D289B05BF345}" WorkUnitID="{7CB5FCC8-4F92-4EBE-8A96-77CC2E847A23}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps(Ground)" ID="{31053A6E-AB6F-46E5-BC0B-D289B05BF345}" WorkUnitID="{7CB5FCC8-4F92-4EBE-8A96-77CC2E847A23}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Shoot" ID="{18A1B0D6-91BD-46F8-8B9B-C26807FF15C0}" WorkUnitID="{8C119089-CF58-4DB5-99D6-E8303F4D053D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TV_Static" ID="{5238B348-243A-4749-8B15-29AF30A0CEA9}" WorkUnitID="{8C119089-CF58-4DB5-99D6-E8303F4D053D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Purchase_01" ID="{219F0550-7624-47B5-943B-50150B720F78}" WorkUnitID="{7CB5FCC8-4F92-4EBE-8A96-77CC2E847A23}" Origin="Manual" Filter="7"/>
